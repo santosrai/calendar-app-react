@@ -1,4 +1,3 @@
-// import "./styles.css";
 const {
   startOfMonth,
   startOfWeek,
@@ -45,22 +44,3 @@ export const getMonth = (start = new Date()) => {
     return range;
   };
 };
-
-// let tw = takeWeek(new Date());
-// console.log(tw());
-// console.log(tw());
-// console.log(tw());
-
-// let tm = takeMonth(new Date());
-
-// console.log(tm());
-
-// return (
-// <div className="Calendar">
-//   {tm().map((arr) => {
-//     return arr.map((val) => {
-//       return <li> {format(val, "yyyy/MM/dd")} </li>;
-//     });
-//   })}
-// </div>
-// );
